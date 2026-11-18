@@ -1,10 +1,10 @@
 function JobCard({ job }) {
     return (
         <div>
-            <h3>{job.title}</h3>
-            <p>{job.company}</p>
-            <p>{job.location}</p>
-            <p>{job.salary}</p>
+        <h3>{job.title}</h3>
+        <p>{job.company}</p>
+        <p>{job.location}</p>
+        <p>{job.salary}</p>
         </div>
     );
 }
